@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.guzikzad:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.nav-items {
+	padding: 15px 0;
+	background-color: #5a718e;
+	text-transform: uppercase;
+}
+
+.nav-items .nav-links {
+	display: flex;
+	gap: 46px;
+	list-style: none;
+}
+
+.navi {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.a-links {
+	text-decoration: none;
+	color: #fff;
+}
+
+.zdjecietlo {
+	height: 100vh;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4) url("/img/tlo.JPG");
+	background-blend-mode: darken;
+	background-size: cover;
+	background-position: center;
+}
+
+.nazdj {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+
+.nazdj h1 {
+	width: 577px;
+	margin-bottom: 50px;
+	font-size: 36px;
+}
+
+.nazdj {
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+
+.guzikzad {
+	width: 164px;
+	height: 40px;
+	border: 3px solid #fff;
+	background: none;
+	color: #fffd;
+	transition: 1s;
+}
+
+.sekcjazadan {
+	background-color: #405d78;
+}
+
+.dwdk {
+	padding: 50px 0 0;
+	font-size: 36px;
+	color: #fff;
+}
+
+.sekcjazadan {
+	height: 300px;
+}
+
+.napis,
+.form,
+.wynik {
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+.napis {
+	padding-bottom: 10px;
+}
+
+.wynik {
+	padding-top: 1em;
+	font-size: 0.8em;
+}
+
+.footer {
+	background: #4e4e4e;
+}
+
+.tcf {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	color: white;
+}
+
+.guziki {
+	display: flex;
+	gap: 20px;
+}

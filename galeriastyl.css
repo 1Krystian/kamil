@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.guzikzad:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.nav-items {
+	padding: 15px 0;
+	background-color: #5a718e;
+	text-transform: uppercase;
+}
+
+.nav-items .nav-links {
+	display: flex;
+	gap: 46px;
+	list-style: none;
+}
+
+.navi {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.a-links {
+	text-decoration: none;
+	color: #fff;
+}
+
+.zdjecietlo {
+	height: 100vh;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4) url("img/tlo.jpg");
+	background-blend-mode: darken;
+	background-size: cover;
+	background-position: center;
+}
+
+.nazdj {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+
+.nazdj h1 {
+	width: 577px;
+	margin-bottom: 50px;
+	font-size: 36px;
+}
+
+.nazdj {
+	margin-bottom: 50px;
+	font-weight: 700;
+}
+
+.guzikzad {
+	width: 164px;
+	height: 40px;
+	border: 3px solid #fff;
+	background: none;
+	color: #fffd;
+	transition: 1s;
+}
+
+.sekcjazadan {
+	background-color: #405d78;
+}
+
+.dwdk {
+	padding: 50px 0 0;
+	font-size: 36px;
+	color: #fff;
+}
+
+.zadania {
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.boxes {
+	display: flex;
+	gap: 60px;
+}
+
+.boxes div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	background-color: #f1f1f1;
+	transition: 0.5s;
+}
+
+.boxes div:hover {
+	transform: scale(1.05);
+}
+
+.footer {
+	background: #4e4e4e;
+}
+
+.tcf {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70px;
+	color: white;
+}
+
+.gallery img{
+	border: 2px solid white;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+}

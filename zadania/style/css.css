@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+    align-items: center;
+}
+
+.wiz{
+    font-family: arial;
+    font-size: 20px;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: beige;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+img{
+    opacity: 0.5;
+    width: 20px;
+    height: 20px;
+}
